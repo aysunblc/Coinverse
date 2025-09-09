@@ -1,0 +1,57 @@
+.coin-list{
+    padding:20px;
+    margin:20px auto;
+    max-width:100%;
+    background:#879efb;
+    border-radius:16px;
+     
+}
+.coin-list h2{
+margin-bottom:15px;
+font-size:1.6rem;
+color:#fff;
+text-align:Center;
+ 
+}
+.coin-table{
+width:100%;
+border-collapse:collapse;
+margin-top:25px;
+font-family:Arial, Helvetica, sans-serif;
+color:#000000;
+box-shadow: 0 4px 10px rgba(222, 18, 18, 0.293);
+  border-radius: 10px;
+  overflow: hidden; /*taşan kısmı gizler*/
+  min-width:1200px;
+}
+.coin-table th, .coin-table td{
+    padding:12px 15px;
+    text-align:center;
+}
+.coin-table th{
+    background-color:#0a31f0;
+    color:#fff;
+   font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+.coin-table td{
+    text-align:Center;
+    font-size:20px;
+}
+.coin-table tr:nth-child(even) { /*çift sırada olanları seçer*/
+  background-color: #0a30f038;
+}
+.coin-table tr:hover{
+     background-color: #002bff;
+  transition: 0.2s ease;
+  cursor:pointer;
+}
+.coin-table td{
+    font-size:14px;
+    color:#08095af2;
+}
+.coin-table td:first-child { /*ilk hücre*/
+  font-weight: bold;
+  color: #111;
+}

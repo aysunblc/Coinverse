@@ -1,0 +1,60 @@
+.header {
+  position: relative;        /* logo’yu absolute ile yerleştirebilmek için */
+  height: 100px;              /* header yüksekliği */
+  background-color: #5e7dfc;
+  display: flex;
+  align-items: center;       /* başlık dikeyde ortalanır */
+  justify-content: space-between;
+  border-radius:30px;   /* başlık yatayda ortalanır */
+  padding-left:20px;
+}
+
+.logo {
+  position: absolute;        /* header’ın sol üstüne sabitlemek için */
+  top: 10px;                 /* üstten biraz boşluk */
+  left: 10px;                /* soldan biraz boşluk */
+  width: 80px;               /* logo boyutu */
+  height: 80px;
+  object-fit: contain; 
+  border-radius:100px;      /* orantıyı bozmadan sığdırır */
+}
+
+.header h1 {
+  padding:80px;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 10px;               /* default margin sıfırlanır */
+  font-size:30px;
+  font-family:Arial, Helvetica, sans-serif;
+  color:#fff;
+}
+.header h1:hover{
+  transform:scale(1.05);
+}
+.nav{
+    display:flex;
+    gap:12px;
+}
+.nav-link{
+ color:#fff;
+ text-decoration:none; /* alttaki çizgiyi kaldırır*/
+ padding:8px 14px;
+ border-radius:10px;
+font-weight:600;
+transition: all 0.2s;
+}
+.nav-link:hover{
+  background: rgba(255,255,255,0.12);
+  transform:scale(1.05);
+}
+.search-bar input{
+  width:200----------px;
+  padding:10px 10px;
+  border-radius:15px;
+  border:none;
+  outline:none;
+  font-size:16px;
+}
+.search-bar input:focus{
+  box-shadow :0 0 8px rgba(255,255,255,0.8);
+}
